@@ -23,7 +23,7 @@ export const options = {
         executor: 'ramping-arrival-rate',
         timeUnit: '1s',
         preAllocatedVUs: 2000,
-        startRate: 50, // 100 requests per second
+        startRate: 50, // 50 requests per second
         stages: [
                 {target: 100, duration: '30s'},
                 {target: 200, duration: '30s'},
