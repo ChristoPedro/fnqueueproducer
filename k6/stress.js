@@ -1,7 +1,7 @@
 import http from 'k6/http';
 
 export default function () {
-  const url = 'https://i55doyearr7e7kltwht5nprypu.apigateway.us-ashburn-1.oci.customer-oci.com/stream/queueproducer';
+  const url = '<Endpoint>';
   const payload = JSON.stringify({
     email: 'aaa',
     password: 'bbb',
